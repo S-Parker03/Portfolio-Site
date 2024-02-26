@@ -1,10 +1,11 @@
 import React from "react";
-import {creativeProjects} from "./data";
+import Gallery from "./Gallery"
+import {creativeProjects} from "./data.js";
 
 export default function CreativeProjects(){
     return(
-        <section className = "projects">
-            <h1 className="title">My Past Creative Work</h1>
+        <section id="creative" className = "projects">
+            <h1 className="title">My Creative Projects</h1>
             <Gallery data={creativeProjects}/>
         </section>
     );

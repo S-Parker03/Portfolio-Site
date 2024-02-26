@@ -12,6 +12,7 @@ export default function MyApp() {
       <NavBar />
       <About />
       <TechnicalProjects />
+      <CreativeProjects />
       <Skills />
       <Testimonials />
       <Contact />
