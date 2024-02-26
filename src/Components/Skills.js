@@ -6,9 +6,9 @@ export default function Skills(){
         <section id="skills" className = "skills">
             <h1 className = "title">Skills</h1>
             <p className="body">shpeeeel</p>
-            <list>
+            <li>
                 
-            </list>
+            </li>
         </section>
     );
 }

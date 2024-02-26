@@ -1,0 +1,21 @@
+html{
+    background-color: #406346;
+    color: #f5f1de;
+}
+
+
+.nav-but{
+    color: #f5f1de;
+}
+
+.navcontainer{
+    background-color: #25433c;
+    display: flex;
+    height: 100px ;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "Montserrat", sans-serif;
+
+}

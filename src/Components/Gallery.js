@@ -4,7 +4,7 @@ export default function Gallery({data}){
     return(
         <section className="gallery">
         <ul>
-          { data.map((item) => (
+          {( data.map((item) => (
             <li key = {item.id}>
                 <img
                     alt={item.name}
@@ -13,7 +13,7 @@ export default function Gallery({data}){
                 <h2 className="subtitle">{item.name}</h2>
                 <p className="body">{item.description}</p>
             </li>
-          ))}
+          )))}
         </ul>
         </section>
     );

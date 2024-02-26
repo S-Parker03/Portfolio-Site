@@ -7,7 +7,7 @@ export default function Testimonials(){
             <h2>Name</h2>
             <img className="portrait" alt ="Person goes here"></img>
             <figcaption>who they are</figcaption>
-            <p className="body">{testimonials}</p>
+            <p className="body"></p>
         </section>
     );
 }

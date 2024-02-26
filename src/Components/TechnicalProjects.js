@@ -1,6 +1,6 @@
 import React from "react";
 import Gallery from "./Gallery"
-import {technicalProjects} from "./data";
+import { technicalProjects } from "./data";
 
 export default function TechnicalProjects(){
     return(

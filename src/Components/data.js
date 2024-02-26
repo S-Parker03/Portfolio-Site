@@ -1,4 +1,4 @@
-const technicalProjects = [{
+export const technicalProjects = [{
     id: 0,
     name: 'project 1',
     imageUrl: 'public/logo192.png',
@@ -15,7 +15,7 @@ const technicalProjects = [{
     description: 'description goes here'
 }];
 
-const creativeProjects = [{
+export const creativeProjects = [{
     id: 0,
     name: 'project 1',
     imageUrl: 'public/logo192.png',
@@ -32,7 +32,7 @@ const creativeProjects = [{
     description: 'description goes here'
 }];
 
-const testimonials = [{
+export const testimonials = [{
     id: 0,
     name: 'person/company 1',
     imageUrl: 'public/logo192.png',

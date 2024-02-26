@@ -1,6 +1,6 @@
 import React from "react";
 import Gallery from "./Gallery"
-import {creativeProjects} from "./data.js";
+import { creativeProjects } from "./data.js";
 
 export default function CreativeProjects(){
     return(

@@ -1,0 +1,20 @@
+html,body,div,section,header,h1,h2,h3,h4,h5,h6,body,nav,figure,figcaption,a,p,img,footer,i,li,tr,td,th{
+    margin: 0;
+    padding: 0;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 0;
+}
+img{
+    border: 0;
+    width: 0%;
+    height: 0%;
+}
+li,ol,ul{
+    list-style:none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 100%;
+}

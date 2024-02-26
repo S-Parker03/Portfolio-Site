@@ -6,6 +6,7 @@ import CreativeProjects from "./Components/CreativeProjects";
 import Skills from "./Components/Skills";
 import Testimonials from "./Components/Testimonials";
 import NavBar from "./Components/NavBar"
+
 export default function MyApp() {
   return(
     <main className = "background">
