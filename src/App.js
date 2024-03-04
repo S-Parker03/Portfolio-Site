@@ -9,14 +9,16 @@ import NavBar from "./Components/NavBar"
 
 export default function MyApp() {
   return(
-    <main className = "background">
+    <main>
       <NavBar />
+      <div className="body">
       <About />
       <TechnicalProjects />
       <CreativeProjects />
       <Skills />
       <Testimonials />
       <Contact />
+      </div>
     </main>
   );
 };

@@ -2,19 +2,17 @@ import React from "react";
 
 export default function Gallery({data}){
     return(
-        <section className="gallery">
-        <ul>
+        <div className="gallery" overflow = "scroll">
           {( data.map((item) => (
-            <li key = {item.id}>
+            <div className="galleryItem" key = {item.id}>
                 <img
                     alt={item.name}
-                    src={item.imageURL}
+                    src={item.image}
                 />
                 <h2 className="subtitle">{item.name}</h2>
                 <p className="body">{item.description}</p>
-            </li>
+            </div>
           )))}
-        </ul>
-        </section>
+        </div>
     );
 }

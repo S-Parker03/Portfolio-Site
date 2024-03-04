@@ -1,14 +1,27 @@
 html{
     background-color: #406346;
     color: #f5f1de;
+    top: 0px;
+    padding-bottom: 5%;
 }
 
+main{
+    top: 0px;
+    bottom: 0px;
+    padding: none;
+}
+
+.body{
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
 .nav-but{
     color: #f5f1de;
 }
 
 .navcontainer{
+    position: sticky;
     background-color: #25433c;
     display: flex;
     height: 100px ;
@@ -17,5 +30,55 @@ html{
     align-items: center;
     justify-content: space-evenly;
     font-family: "Montserrat", sans-serif;
+    top: 0px;
+}
 
+.gallery{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    overflow-x: auto;
+    flex-flow: nowrap;
+}
+
+.galleryItem{
+    margin: 3%;
+}
+
+.galleryItem img{
+    width: 100px;
+    height: 100px;
+}
+
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+  
+
+::-webkit-scrollbar-track {
+    background: #3e482a;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-track-piece {
+    background: #3e482a;
+    
+}
+
+.gallery::-webkit-scrollbar-track{
+    border-radius: 8px;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #69573B;
+    border-radius: 8px;
+    width: 10px;
+}
+  
+
+::-webkit-scrollbar-thumb:hover {
+    background: #69573B;
+    width: 10px;
 }
