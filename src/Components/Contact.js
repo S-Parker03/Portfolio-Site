@@ -10,7 +10,7 @@ export default function Contact(){
             <br></br>
             <br></br>
 
-            <form netlify name="contact">
+            <form netlify name="contact" onSubmit={handleSubmit}>
                 <h2>
                     Contact Form
                 </h2>
@@ -57,4 +57,7 @@ export default function Contact(){
             </form>
         </section>
     );
+
+    function handleSubmit(e){ e.preventDefault(); };
+    
 }
